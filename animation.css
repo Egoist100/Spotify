@@ -1,0 +1,25 @@
+.container .right {
+    animation: animate3 forwards 1s ease-in 1s;
+}
+
+@keyframes animate3 {
+    0% {
+        box-shadow: 0;
+    }
+
+    50% {
+        box-decoration-break: slice;
+        -webkit-box-decoration-break: slice;
+        box-shadow: 8px 8px 10px 0 green;
+    }
+
+    100% {
+        box-decoration-break: slice;
+        -webkit-box-decoration-break: slice;
+        box-shadow: 8px 8px 10px 0 green, -5px -5px 3px 0 red, 5px 5px 15px 0 #ff0;
+    }
+
+}
+
+
+

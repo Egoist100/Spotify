@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(49, 47, 44);
+    
+}
+nav{
+    font-family:  ubuntu, mono,sans-serif;
+    position: sticky;
+    top: 0;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 55px;
+    background-color: black;
+    color: white;
+}
+nav ul li{
+    padding: 0 12px;
+}
+.brand img {
+    width: 35px;
+    padding: 0 8px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.container{
+    min-height: 68vh;
+    background-color: black;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 12px;
+    background-image: url('../back.png');
+    background-size: cover;
+    
+}
+/* .container img{
+    display: flex;
+    margin-left: 300px;
+} */
+.bottom{
+    position: sticky;
+    height: 75px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.icons{
+    margin-top: 10px;
+}
+.icons i{
+    cursor: pointer;
+}
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+.songItemContainer{
+    margin-top: 21px;
+}
+.songItem{
+    height: 35px;
+    display: flex;
+    background-color: white;
+    /* width: 90%; */
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border: hidden;
+    border-radius: 34px;
+    /* overflow: scroll; */
+}
+/* .songItem:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+} */
+ .songItem img{
+    width: 36px;
+    margin: 0 23px;
+    border-radius: 25px;
+    height: 35px;
+ }
+.timestamp{
+    margin: 0 20px;
+}
+.timestamp i{
+    cursor: pointer;
+}
+.songInfo{
+    position: absolute;
+    left: 10vw;
+    top: 5vh;
+    width: 18vw;
+    display: flex;
+    justify-content: space-between;    
+    /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+
+

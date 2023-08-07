@@ -1,0 +1,107 @@
+body{
+    background-color: black;
+    /* background-color: white; */
+}
+main{
+    display: inline-flex;
+    justify-content: flex-start;
+    height: 90vh;
+    flex-direction: column;
+    width: 98vw;
+    max-height: 90vh;
+    margin-top: 42px;
+}
+.login{
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    margin: 0px 19vw; 
+    width: 122vw;
+    position: fixed;
+    background-color: black;
+   
+
+}
+
+.login p{
+    display: inline-flex;
+    flex-direction:row-reverse;
+    color: rgb(163, 155, 155);;
+    margin: 0 12px;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+.login .User{
+    margin: 0 99px;
+}
+.login .User a{
+    text-decoration: none;
+    color: white;
+}
+h3{
+    display: inline-flex;
+    flex-direction:row-reverse;
+    background-color: white;
+    color: black;
+    margin: 0 10px;
+    height: 43px;
+    width: 92px;
+    justify-content: center;
+    border-radius: 21px;
+    align-items: center;
+}
+
+.container{
+    background-color: rgb(21, 20, 20);
+    color: white;
+    width:calc(100vw - 22vw);
+    height: 61vh;
+    min-height: 61vh;
+    display: flex;
+    margin: -24px -1362px -80px 237px;
+    padding: 0 21px;
+    font-size: 12px;
+    flex-direction: row;
+    overflow: scroll;
+    border-left: 18px solid rgb(21, 20, 20);
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background: rgb(21,20,20);
+    margin: 24px -7px 24px -57px;
+}
+.heading a{
+    text-decoration: none;
+    color: white;
+    height: 27px;
+    margin: 15px 0 15px 0;
+    font-size: 23px;
+    width: 50vw;
+    min-width: 50vw;
+    font-weight: bold;
+
+}
+.heading a:hover{
+    font-weight: bold;
+    color: rgb(12, 177, 61);
+    text-decoration: underline;
+    display: flex;
+    
+    
+}
+.container .songs{
+background-color: #201d1d;
+display: flex;
+flex-direction: column;
+height: 47vh;
+min-height: 47vh;
+justify-content: flex-start;
+width: 200px;
+min-width: 200px;
+margin: 5px 15px;
+border: 2px solid #201d1d;
+border-radius: 10px;
+}

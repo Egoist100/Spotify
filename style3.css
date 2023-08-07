@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+.spotify {
+    display: flex;
+    align-items: center;
+}
+
+/* nav{
+    /* margin: 8px;
+    border: 0.1px solid #099FFF;
+    box-decoration-break: slice;
+    -webkit-box-decoration-break: slice;
+    box-shadow: 0 4px 8px #00FFFF; */
+
+nav ul li img {
+    width: 38px;
+    margin-right: 3px;
+}
+
+nav ul p {
+    font-size: 20px;
+}
+
+nav ul {
+    color: black;
+    display: flex;
+    /* width: 100vw; */
+    list-style: none;
+    background-color: rgb(8, 8, 8);
+    color: white;
+    height: 60px;
+    align-items: center;
+    margin: 8px;
+    border: 0.1px solid #099FFF;
+    box-decoration-break: slice;
+    -webkit-box-decoration-break: slice;
+    box-shadow: 0 4px 8px #00FFFF;
+}
+
+nav ul li {
+    margin-left: 12px;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav ul li:hover {
+    text-decoration: 1px #00FFFF underline;
+    text-underline-offset: 6px;
+}
+
+.container {
+    height: 87.2vh;
+    ;
+    display: flex;
+    /* align-items: center; */
+    background-color: rgb(22, 21, 21);
+    justify-content: space-evenly;
+}
+
+.container .right {
+    height: 82vh;
+    width: 36vw;
+    margin: 19px 0;
+    background-color: rgb(29, 27, 27);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    /* box-shadow: 10px 5px 5px red; */
+    /* box-shadow: 3px 3px rgb(4, 230, 4), -1em 0 .4em rgb(4, 230, 4); */
+    /* box-shadow: 10px 10px 10px rgb(4, 230, 4); */
+    /* box-shadow:inset 10px 10px 10px rgb(4, 230, 4); */
+    /* box-decoration-break: slice;
+    -webkit-box-decoration-break: slice;
+    box-shadow: 8px 8px 10px 0 green, -5px -5px 5px 0 red, 5px 5px 15px 0 #ff0; */
+
+}
+
+.right:hover {
+    background-color: rgb(33, 30, 30);
+    /* box-shadow: 60px -16px rgb(4, 230, 4); */
+    box-shadow: 10px 10px 8px rgb(4, 230, 4);
+    /* box-shadow: 12px 12px 2px 1px rgb(4,230,4); */
+    /* box-shadow: 3px 3px rgb(4, 230, 4), -1em 0 .4em rgb(4, 230, 4); */
+}
+
+.right .Email {
+    height: 44px;
+    width: 25vw;
+    padding-left: 15px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    border: 2px solid rgb(31, 27, 27);
+    border-radius: 30px;
+}
+
+.right .Password {
+    height: 44px;
+    width: 25vw;
+    padding-left: 15px;
+    margin-bottom: 15px;
+    border: 2px solid rgb(31, 27, 27);
+    border-radius: 30px;
+}
+
+.right .button {
+    background-color: rgb(45, 158, 45);
+    color: white;
+    height: 43px;
+    width: 25.2vw;
+    padding-left: 15px;
+    margin-bottom: 45px;
+    border: 2px solid rgb(45, 158, 45);
+    border-radius: 30px;
+}
+
+.button:hover {
+    background-color: rgb(37, 133, 37);
+}
+
+.contain {
+    width: 25vw;
+    display: flex;
+    margin-bottom: 19px;
+    margin-left: 55px;
+}
+
+.right .check {
+    margin-right: 2px;
+}
+
+.right .contain span {
+    color: white;
+    margin-left: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Forgot {
+    color: rgb(124, 118, 118);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Forgot:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.logo img {
+    width: 40px;
+}
+
+.right p {
+    color: white;
+    margin-left: 4px;
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navigation {
+    width: 20vw;
+    margin-top: 40px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-evenly;
+
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* margin-bottom: 5px; */
+}
+
+.navigation a:hover {
+    text-decoration: 2px rgb(45, 158, 45) underline;
+    text-underline-offset: 8px
+}
+
+
+
+
+
