@@ -2,7 +2,7 @@ console.log("Welcome to spotify")
 
 // Initialize the variables
 let songIndex = 0;
-let audioElement = new Audio('songs/5.mp3');
+let audioElement = new Audio('5.mp3');
 let masterPlay = document.getElementById('masterPlay');
 let myProgressBar = document.getElementById('myProgressBar');
 let gif = document.getElementById('gif');
@@ -11,14 +11,14 @@ let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 
 let songs = [
-    {songName:"Stay - Justin Bieber", filePath: "songs/1.mp3",coverPath:"covers/1.jpg"},
-    {songName:"Cheap Thrills", filePath: "songs/2.mp3",coverPath:"covers/4.jpg"},
-    {songName:"Love Me Like You Do - Justin Bieber", filePath: "songs/3.mp3",coverPath:"covers/2.jpg"},
-    {songName:"See You Again", filePath: "songs/4.mp3",coverPath:"covers/3.jpg"},
-    {songName:"Aakhon Se Batana", filePath: "songs/5.mp3",coverPath:"covers/5.jpg"},
-    {songName:"Maiyya Mainnu", filePath: "songs/6.mp3",coverPath:"covers/7.jpg"},
-    {songName:"Night Changes - One Direction", filePath: "songs/7.mp3",coverPath:"covers/6.jpg"},
-    {songName:"House Of Memories", filePath: "songs/8.mp3",coverPath:"covers/8.jpg"},
+    {songName:"Stay - Justin Bieber", filePath: "1.mp3",coverPath:"1.jpg"},
+    {songName:"Cheap Thrills", filePath: "2.mp3",coverPath:"4.jpg"},
+    {songName:"Love Me Like You Do - Justin Bieber", filePath: "3.mp3",coverPath:"2.jpg"},
+    {songName:"See You Again", filePath: "4.mp3",coverPath:"3.jpg"},
+    {songName:"Aakhon Se Batana", filePath: "5.mp3",coverPath:"5.jpg"},
+    {songName:"Maiyya Mainnu", filePath: "6.mp3",coverPath:"7.jpg"},
+    {songName:"Night Changes - One Direction", filePath: "7.mp3",coverPath:"6.jpg"},
+    {songName:"House Of Memories", filePath: "8.mp3",coverPath:"8.jpg"},
 ]
 songItems.forEach((element,i)=>{ 
     console.log(element , i)
